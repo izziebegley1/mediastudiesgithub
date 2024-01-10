@@ -38,9 +38,26 @@
     <div class="contact-info">
       <p>Think you have a better brownie recipe?</p>
       <p>I'd love to see it!</p>
-      <p>Contact me at <a href="mailto:izziebegley@gmail.com">izziebegley@gmail.com</a></p>
+      <p>Contact me at <a href="mailto:izziebegley@gmail.com">izziebegley@gmail.com</a> , or fill out the form below!</p>
     </div>
   </main>
+<header> 
+    <h1>Fudgy Brownie Recipe Contact Form</h1>
+  </header>
+
+  <form action="mailto:izziebegley@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" required>
+
+    <label for="comment">Comment:</label>
+    <textarea name="comment" rows="4" required></textarea>
+
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+  </form>  
 
   <footer>
     <p> 2024 Izzie Begley's Brownie Quest</p>
