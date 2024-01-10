@@ -44,14 +44,14 @@
       margin: 0 10px;
     }
 
-<head>
+
   <title>Centered Image Example</title>
   <style>
     .image-container {
       text-align: center;
     }
   </style>
-</head>
+
 <body>
   <h1>Centered Image</h1>
  <div class="image-container">
