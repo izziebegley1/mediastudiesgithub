@@ -58,6 +58,26 @@
     <img src="brownie-frosting.jpg" alt="a brownie with chocolate frosting on a plate with a bite taken out of it">
   </div>
 </body>
+
+    nav {
+      background-color: #ffffff; 
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin-right: 10px; 
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #ffffff; 
+    }
   </style>
  
 </html>
