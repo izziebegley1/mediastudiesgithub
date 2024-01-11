@@ -20,6 +20,54 @@
       <p>Contact me at <a href="mailto:izziebegley@gmail.com">izziebegley@gmail.com</a> , or fill out the form below!</p>
     </div>
   </main>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      width: 60%; /* Adjust the width of the form as needed */
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    input[type="checkbox"] {
+      width: auto;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+  </style>
 
   <form action="mailto:izziebegley@gmail.com" method="post" enctype="text/plain">
     <label for="firstname">  First Name:</label>
@@ -30,8 +78,8 @@
     <input type="email" name="email" required>
 <br>
     <br> 
-    <label for="comment">  Comment:</label>
-    <textarea name="comment" rows="4" required></textarea>
+    <label for="comment">  Recipe:</label>
+    <textarea name="Recipe" rows="3" required></textarea>
 <br>
     <br>
     <input type="submit" value="Send">
