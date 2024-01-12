@@ -30,11 +30,6 @@ h4 {
     font-family: 'Georgia', serif;
     text-align: center;
     color: white;
-}
-li a {
-    class="instructions" 
-    type="1"
-} 
 
     nav {
       background-color: #996633;
@@ -48,7 +43,7 @@ li a {
       text-align: center;
     }
 
-    li b {
+    li {
       display: inline;
       margin: 0 10px;
     }
