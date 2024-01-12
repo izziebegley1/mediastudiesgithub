@@ -33,7 +33,9 @@ h4 {
 }
 
 li {
-    class="recipe" 
+    class="instructions" 
+    type="1"
+} 
     
 
     nav {
