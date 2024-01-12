@@ -35,19 +35,24 @@ h4 {
       background-color: #996633;
       color: #fff;
       padding: 10px;
-    display: inline 
+    text-align: center;
+    
     }
 
     ul {
       list-style-type: none;
       padding: 0;
-      text-align: center;
+      display: inline-block;
     }
 
     li {
       display: inline;
       margin: 0 10px;
     }
+
+
+
+    
 
     .center-container {
   text-align: center;
