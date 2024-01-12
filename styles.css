@@ -40,7 +40,6 @@ h4 {
     }
 
     ul {
-      list-style-type: none;
       padding: 0;
       display: inline-block;
     }
@@ -49,16 +48,5 @@ h4 {
       display: inline;
       margin: 0 10px;
     }
-
-
-
-    
-
-    .center-container {
-  text-align: center;
-  margin: 0 auto;
-}
-
-
 
   
