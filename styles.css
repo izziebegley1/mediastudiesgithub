@@ -27,10 +27,12 @@
     color: white;
 }
 
-h4 {
-    font-family: 'Georgia', serif;
+h4 { 
+   font-family: 'Georgia', serif;
     text-align: center;
-    color: white;
+    color: black;
+    
+} 
 
     .image-container {
       text-align: center;
