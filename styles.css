@@ -51,5 +51,18 @@ h4 {
     nav a {
         text-decoration: none;
       color: #ffffff;
+        display: inline
     } 
+    
+    .image-container {
+      text-align: center;
+    }
 
+    .recipe {
+        text-align: center;
+        color: black;
+        display: list-item;
+    } 
+        
+
+  
