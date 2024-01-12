@@ -5,7 +5,8 @@
       color: #000000;
       margin: 0;
       padding: 0;
-    font-size: 16px
+    font-size: 16px;
+        text-align: center;
     }
 
     header {
@@ -31,6 +32,15 @@ h4 {
     text-align: center;
     color: white;
 
+    .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .center-container {
+      text-align: center;
+    } 
+
     nav {
       background-color: #996633;
       color: #fff;
@@ -42,7 +52,11 @@ h4 {
     ul {
       padding: 0;
       display: inline-block;
+        text-align: center;
     }
+    ol { 
+        text-align: center;
+    } 
 
     li {
       display: inline;
