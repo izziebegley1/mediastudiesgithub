@@ -41,14 +41,6 @@ h4 {
       text-align: center;
     } 
 
-    nav {
-      background-color: #996633;
-      color: #fff;
-      padding: 10px;
-    text-align: center;
-    
-    }
-
     ul {
       padding: 0;
       display: inline-block;
@@ -61,12 +53,31 @@ h4 {
     li {
       display: inline;
       margin: 0 10px;
-    }
-    nav a {
-  color: #fff; 
+    } 
+
+    nav {
+  background-color: #996633;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav h4 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
   text-decoration: none;
-    display: inline;
-    margin: 0 10px;    
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
   
