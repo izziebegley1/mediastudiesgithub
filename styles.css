@@ -31,6 +31,10 @@ h4 {
     text-align: center;
     color: white;
 }
+li a {
+    class="instructions" 
+    type="1"
+} 
 
     nav {
       background-color: #996633;
@@ -44,7 +48,7 @@ h4 {
       text-align: center;
     }
 
-    li {
+    li b {
       display: inline;
       margin: 0 10px;
     }
