@@ -62,5 +62,11 @@ h4 {
       display: inline;
       margin: 0 10px;
     }
+    nav a {
+  color: #fff; 
+  text-decoration: none;
+    display: inline;
+    margin: 0 10px;    
+}
 
   
