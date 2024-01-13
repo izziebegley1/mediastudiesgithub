@@ -3,41 +3,26 @@
   <title>Contact Izzie Begley</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <style>
-    .contact-info {
-      text-align: center;
-      margin-top: 30px;
-    }
-  </style>
-</head>
-<body>
-
-<header> 
-    <h1>Fudgy Brownie Recipe Contact Form</h1>
-  </header>
-  <div class="contact-info">
-      <p>Think you have a better brownie recipe?</p>
-      <p>I'd love to see it!</p>
-      <p>Contact me at <a href="mailto:izziebegley@gmail.com">izziebegley@gmail.com</a> , or fill out the form below!</p>
-    </div>
-  </main>
-  <style>
     body {
       display: flex;
       align-items: center;
       justify-content: flex-start;
       height: 100vh;
       margin: 0;
-    } 
- 
+    }
+    
+    .contact-info {
+      text-align: center;
+      margin-top: 30px;
+    }
+
     form {
       width: 50%;
       padding: 20px;
       border: 1px solid #ccc;
       border-radius: 8px;
-      position: center
       margin-top: auto;
       margin-bottom: auto;
-    }
     }
 
     label {
@@ -66,44 +51,56 @@
       border-radius: 4px;
       cursor: pointer;
     }
+
     input[type="submit"]:hover,
     input[type="reset"]:hover {
       background-color: #45a049;
     }
-    
   </style>
+</head>
+<body>
 
-  <form action="mailto:izziebegley@gmail.com" method="post" enctype="text/plain">
-    <label for="firstname">  First Name:</label>
-    <input type="text" name="firstname" id="firstname" required>
-<br>
-    <br> 
-    <label for="email">  E-mail:</label>
-    <input type="email" name="email" id="email" required>
-<br>
-    <br> 
-    <label for="comment">  Recipe:</label>
-    <textarea name="Recipe" rows="3" id="recipe" required></textarea>
-<br>
-    <br>
-    <input type="submit" value="Send">
-    <input type="reset" value="Reset">
-    <br>
-    <br>
-    <input type="checkbox" name="subscribe" id="subscribe> 
-    <label for="subscribe">  Subscribe to newsletter</label> 
-  </form>  
+<header> 
+    <h1>Fudgy Brownie Recipe Contact Form</h1>
+</header>
+<div class="contact-info">
+    <p>Think you have a better brownie recipe?</p>
+    <p>I'd love to see it!</p>
+    <p>Contact me at <a href="mailto:izziebegley@gmail.com">izziebegley@gmail.com</a>, or fill out the form below!</p>
+</div>
+<main>
+    <form action="mailto:izziebegley@gmail.com" method="post" enctype="text/plain">
+        <label for="firstname">  First Name:</label>
+        <input type="text" name="firstname" id="firstname" required>
+        <br>
+        <br> 
+        <label for="email">  E-mail:</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+        <br> 
+        <label for="comment">  Recipe:</label>
+        <textarea name="Recipe" rows="3" id="recipe" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        <br>
+        <br>
+        <input type="checkbox" name="subscribe" id="subscribe"> 
+        <label for="subscribe">  Subscribe to newsletter</label> 
+    </form>
+</main>
 
- <header>
+<header>
     <nav>
-    <h3> For more information: </h3>
-    <ul>
-      <li><a href="home.html">Home</a></li><br>
-      <li><a href="about.html">About</a></li><br>
-      <li><a href="contact.html">Contact</a></li><br>
-      <li><a href="media.html">Video and Audio tutorials</a></li><br>
-    </ul>
-  </nav>
-   </header>
+        <h3> For more information: </h3>
+        <ul>
+            <li><a href="home.html">Home</a></li><br>
+            <li><a href="about.html">About</a></li><br>
+            <li><a href="contact.html">Contact</a></li><br>
+            <li><a href="media.html">Video and Audio tutorials</a></li><br>
+        </ul>
+    </nav>
+</header>
 </body>
 </html>
